@@ -8,7 +8,7 @@ const Navber = () => {
       <Container>
         <Navbar expand="lg" className="">
           <Navbar.Brand className="logo" href="#home">
-            <img src={logo} />
+            <img src={logo}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
