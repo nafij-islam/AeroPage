@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  */
+.listitem:hover{
+    color: #EA580C !important;
+    
+}
+
+.munu{
+    color:#fad0bcd8;
+}
+
+@media (min-width:320px) and (max-width:575.99px){
+    .nav-section{
+       padding-top:0px;
+    }
+    .navbar-nav {
+        align-items: center;
+        
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+    .busi-section{
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .left-heading{
+        padding-top: 0px;
+    }
+    .heading{
+        padding-top: 50px;
+    }
+
+    .busi-section .left-heading .heading h1{
+        font-size: 36px;
+        width: 390px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .hero-img{
+        padding-top: 20px;
+    }
+    .card-part{
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-pera{
+        width: 390px;
+    }
+
+    .navbar-nav{
+        background-color: bisque;
+        text-align: center;
+        gap: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .navbar-nav .nav-btn{
+        margin: auto;
+        
+    }
+}
