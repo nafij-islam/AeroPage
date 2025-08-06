@@ -9,6 +9,7 @@ const Home = () => {
     <Navber/>
     <Business/>
     <Deploy/>
+      
     </>
   )
 }

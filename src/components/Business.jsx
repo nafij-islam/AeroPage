@@ -24,7 +24,7 @@ const Business = () => {
                 amet, velit nibh arcu eu. Id sem varius malesuada tincidunt
                 sodales.
               </p>
-              <button className="py-[9px] px-[23px] rounded-[5px] mt-[30px] bg-[#EA580C]">
+              <button className="py-[9px] hover:bg-black text-white font-semibold duration-300 px-[23px] rounded-[5px] mt-[30px] bg-[#EA580C]">
                 Get started now
               </button>
             </div>

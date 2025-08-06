@@ -8,7 +8,7 @@ const Navber = () => {
       <Container>
         <Navbar expand="lg" className="">
           <Navbar.Brand className="logo" href="#home">
-            <img src={logo}/>
+            <img src={logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -25,16 +25,13 @@ const Navber = () => {
               <Nav.Link href="#link" className="!text-[16px] listitem">
                 Contact
               </Nav.Link>
-
-               
             </Nav>
             <div>
-              <button className="nav-btn bg-[#EA580C] text-[white] flex gap-[27px] items-center py-[18px] pr-[59px] pl-[51px] text-[20px] rounded-[20px]">
+              <button className="nav-btn hover:bg-black duration-300 font-semibold bg-[#EA580C] text-[white] flex gap-[27px] items-center py-[18px] pr-[59px] pl-[51px] text-[20px] rounded-[20px]">
                 <FaCloudDownloadAlt />
                 Download
               </button>
             </div>
-           
           </Navbar.Collapse>
         </Navbar>
       </Container>
