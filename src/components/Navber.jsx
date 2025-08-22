@@ -11,8 +11,8 @@ const Navber = () => {
             <img src={logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mx-auto gap-[50px]">
+          <Navbar.Collapse className="navber-respon" id="basic-navbar-nav">
+            <Nav className="mx-auto  items-center gap-[50px]">
               <Nav.Link href="#home" className="!text-[16px] listitem">
                 Home
               </Nav.Link>
@@ -25,13 +25,17 @@ const Navber = () => {
               <Nav.Link href="#link" className="!text-[16px] listitem">
                 Contact
               </Nav.Link>
+             
+             
             </Nav>
-            <div>
-              <button className="nav-btn hover:bg-black duration-300 font-semibold bg-[#EA580C] text-[white] flex gap-[27px] items-center py-[18px] pr-[59px] pl-[51px] text-[20px] rounded-[20px]">
-                <FaCloudDownloadAlt />
-                Download
-              </button>
-            </div>
+             <div className="nav-btn-main">
+                <button className="nav-btn hover:bg-black duration-300 font-semibold bg-[#EA580C] text-[white] flex gap-[27px] items-center py-[18px] pr-[59px] pl-[51px] text-[20px] rounded-[20px]">
+                  <FaCloudDownloadAlt />
+                  Download
+                </button>
+              </div>
+
+             
           </Navbar.Collapse>
         </Navbar>
       </Container>

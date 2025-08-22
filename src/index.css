@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 /*  */
+.listitem{
+     font-family: "ABeeZee", sans-serif;
+    font-weight: 500;
+
+}
+
+
 .listitem:hover{
     color: #EA580C !important;
+   
     
 }
 
@@ -12,12 +20,33 @@
     color:#fad0bcd8;
 }
 
-@media (min-width:320px) and (max-width:575.99px){
+@media (max-width:768px){
     .nav-section{
        padding-top:0px;
     }
     .navbar-nav {
         align-items: center;
+        gap: 10px;   
+        padding: 20px;
+        
+    }
+
+    .navber-respon{
+        background-color: bisque;
+        text-align: center;
+        border-radius: 10px;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+
+    }
+    .nav-btn-main{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    
         
     }
 
@@ -53,15 +82,5 @@
         width: 390px;
     }
 
-    .navbar-nav{
-        background-color: bisque;
-        text-align: center;
-        gap: 20px;
-        padding-bottom: 20px;
-        border-radius: 10px;
-    }
-    .navbar-nav .nav-btn{
-        margin: auto;
-        
-    }
+
 }
